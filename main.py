@@ -101,10 +101,6 @@ def run():
         product = input("\nEnter product name: ").strip()
         persona = input("Enter persona description: ").strip()
         
-        if not product or not persona:
-            print("❌ Input error occurred")
-            return
-
         # Check cache first (exact match)
         cached_result = db.fetch_exact_run(product, persona)
         if cached_result:
