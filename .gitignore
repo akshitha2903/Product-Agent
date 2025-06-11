@@ -2,3 +2,4 @@ cenv/
 .env
 __pycache__
 src\crewai_prod\__pycache__
+memory.db
