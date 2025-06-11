@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🛒 Product Tagging CrewAI Agent
 
 A simple AI-powered product description & tag generator using CrewAI, Gemini API, and SQLite memory.
@@ -128,11 +127,11 @@ Results are:
 
 ## 📽️ Demo Videos
 
-- [Demo working video](videos/demo1.mp4)
+- [Demo working video](videos/demo.mp4)
 
 - This video shows sample examples and all input validations.
 
-- [Database Store for memory](videos/demo2.mp4)
+- [Database Store for memory](videos/dbstore.mp4)
 
 - This video shows the stored values in the database after each run.
 - If same inputs are entered already stored output responses will be returned. (Caching)
