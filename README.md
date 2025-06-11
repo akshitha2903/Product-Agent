@@ -127,11 +127,11 @@ Results are:
 
 ## 📽️ Demo Videos
 
-- [Demo Video - Input Validations](https://github.com/akshitha2903/Product-Agent/blob/main/videos/demo.mp4)
+- [Demo Video Working](https://drive.google.com/file/d/1VVXUs8hUrlrrTnnpK0vMBch1ZYpXibxp/view?usp=sharing)
 
 - This video shows sample examples and all input validations.
 
-- [Demo Video - Database Storage](https://github.com/akshitha2903/Product-Agent/blob/main/videos/dbstore.mp4)
+- [Demo Video - Database Storage](https://drive.google.com/file/d/14Y3VeCKKIAKvxFE24GNMaQRAttYSZ07x/view?usp=sharing)
 
 - This video shows the stored values in the database after each run.
 - If same inputs are entered already stored output responses will be returned. (Caching)
