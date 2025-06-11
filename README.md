@@ -125,3 +125,14 @@ Results are:
 - Previous results are saved in the SQLite DB
 - If the same Product and Persona are input again, cached results are retrieved instead of calling Gemini API again
 - Recent runs and popular tags are shown on startup
+
+## 📽️ Demo Videos
+
+- [Demo working video](videos/demo1.mp4)
+
+- This video shows sample examples and all input validations.
+
+- [Database Store for memory](videos/demo2.mp4)
+
+- This video shows the stored values in the database after each run.
+- If same inputs are entered already stored output responses will be returned. (Caching)

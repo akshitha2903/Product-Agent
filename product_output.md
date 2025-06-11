@@ -1,2 +1,1 @@
-**Product Description:**  Stay hydrated and save the planet with our Reusable Water Bottle!  Made from sustainable materials, it's the perfect eco-friendly choice for the conscious consumer on the go. Ditch single-use plastics and show your commitment to a healthier planet, one sip at a time.
-**Product Tags:** 1. #SustainableSip 2. #EcoHero 3. #PlanetPositive
+❌ ERROR: Persona description is required and cannot be empty
