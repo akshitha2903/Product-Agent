@@ -1,0 +1,43 @@
+# Enhanced tasks.yaml with built-in validation
+generate_description_and_tags:
+  description: >
+    VALIDATION CHECKS:
+    - If "{product_name}" is empty, missing, or contains only spaces: STOP and return "❌ ERROR: Product name is required and cannot be empty"
+    - If "{persona_description}" is empty, missing, or contains only spaces: STOP and return "❌ ERROR: Persona description is required and cannot be empty"
+    - If "{product_name}" is less than 2 characters: STOP and return "❌ ERROR: Product name too short (minimum 2 characters)"
+    - If "{persona_description}" is less than 5 characters: STOP and return "❌ ERROR: Persona description too short (minimum 5 characters)"
+    
+    ONLY IF ALL VALIDATIONS PASS, proceed with the task:
+    
+    You MUST use the exact product name "{product_name}" and target the exact persona "{persona_description}".
+    
+    Create a compelling product description (2-3 sentences) that:
+    1. Highlights benefits relevant to this specific persona
+    2. Uses language and tone that resonates with this customer type
+    3. Addresses their likely pain points or desires
+    
+    Create 3 product tags that:
+    1. Capture the spirit and values of the persona but do NOT just copy the input words.
+    2. Are catchy, trendy, and appealing marketing keywords that would attract this audience.
+    3. Go beyond the product name and persona by incorporating lifestyle, values, and benefits.
+
+    
+    DO NOT use placeholder examples. Use the actual inputs provided.
+    {memory_context}
+    Use the context above to inform your decisions but create fresh, original content.
+    DO NOT copy or reuse text from memory; generate unique descriptions and tags tailored exactly to this input.
+    
+  expected_output: >
+    IF VALIDATION FAILED: Return only the error message starting with "❌ ERROR:"
+    
+    IF VALIDATION PASSED: Return the following format:
+    
+    **Product Description:**
+    [2-3 sentence compelling description using the actual product name and targeting the specific persona]
+    
+    **Product Tags:**
+    1. [Tag 1]
+    2. [Tag 2] 
+    3. [Tag 3]
+  
+  agent: product_marketer
