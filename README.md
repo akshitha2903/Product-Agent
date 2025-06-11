@@ -50,9 +50,7 @@ product_agent/
 ├── main.py
 ├── requirements.txt
 └── README.md
-
-
----
+```
 
 ## ⚙️ Setup Instructions
 
@@ -61,12 +59,12 @@ product_agent/
 ```bash
 git clone <your-repo-link>
 cd product_agent
-
+```
 ### 2️⃣ Create Virtual Environment
 
 ```bash
 python -m venv cenv
-
+```
 
 ## 3️⃣ Activate Environment
 
